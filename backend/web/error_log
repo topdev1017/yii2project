@@ -1,0 +1,18 @@
+[13-Feb-2015 12:31:06 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:33:14 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:33:39 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:34:45 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:37:16 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:37:25 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:38:38 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:38:56 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:44:21 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[13-Feb-2015 12:44:23 America/Denver] PHP Notice:  Array to string conversion in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2/log/Target.php on line 288
+[12-Mar-2015 11:22:53 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 5071715 bytes) in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[13-Mar-2015 10:44:21 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4943808 bytes) in /home2/richmedi/public_html/mlazgar/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[04-May-2015 03:24:42 America/Denver] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 54670153 bytes) in /home2/richmedi/public_html/ls1/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[04-May-2015 03:53:04 America/Denver] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 47693373 bytes) in /home2/richmedi/public_html/ls1/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[04-May-2015 04:04:04 America/Denver] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 45558016 bytes) in /home2/richmedi/public_html/ls1/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[04-May-2015 22:12:53 America/Denver] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 43729388 bytes) in /home2/richmedi/public_html/ls1/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[04-May-2015 22:38:33 America/Denver] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 56130069 bytes) in /home2/richmedi/public_html/ls1/vendor/yiisoft/yii2-debug/LogTarget.php on line 58
+[04-May-2015 23:50:50 America/Denver] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 56640696 bytes) in /home2/richmedi/public_html/ls1/vendor/yiisoft/yii2-debug/LogTarget.php on line 58

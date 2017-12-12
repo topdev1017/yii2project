@@ -1,0 +1,159 @@
+
+.homepage .main_display {
+	display: inline;
+}
+
+.homepage .slider {
+	width: 750px;
+	height: 306px;
+	float: left;
+
+	background-image: url(../../../resources/theme/images/homepage/slider_image.jpg);
+}
+
+.homepage .featured {
+	width: 250px;
+	height: 306px;
+	float: right;	
+	
+	background-color: #b31c27;
+}
+
+.homepage .featured .featured_manufacturer {
+	font-size: 16px;
+
+	color: #FFFFFF;
+}
+
+.homepage .featured .lighting-access {
+	height: 80px;
+	width: 211px;
+	background-repeat: no-repeat;
+	
+	background-image: url(../../../resources/theme/images/homepage/lighting-access.jpg);
+}
+
+.homepage .featured .hubbell_lighting {
+	font-size: 14px;
+	
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.homepage .featured .featured_description {
+	font-size: 12px;
+	width: 211px;
+	margin-bottom: 20px;
+	
+	color: #FFFFFF;
+}
+
+.homepage .featured .view_all_products {
+	width: 145px;
+	height: 23px;
+	padding-top: 5px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	font-size: 13px;
+
+	color: #b31c27;
+	background-image: url(../../../resources/theme/images/homepage/view_all_products_button.jpg);
+}
+
+.homepage .round_section {
+	display: table;
+	padding-bottom: 20px;
+}
+
+.homepage .round_section .round_section_div {
+	display: table-cell;
+	width: 250px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.homepage  .round_section_div .line {
+	height: 47px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	background-image: url(../../../resources/theme/images/homepage/vertical_line.jpg);
+}
+
+.homepage  .round_section_div .round {
+	height: 148px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.homepage .round_section_div .luminaire_selector {
+	background-image: url(../../../resources/theme/images/homepage/luminaire-selector.jpg);
+}
+
+.homepage .round_section_div .line_card {
+	background-image: url(../../../resources/theme/images/homepage/line-card.jpg);
+}
+
+.homepage .round_section_div .whats_new {
+	background-image: url(../../../resources/theme/images/homepage/whats-new.jpg);
+}
+
+.homepage .round_section_div .applications {
+	background-image: url(../../../resources/theme/images/homepage/applications.jpg);
+}
+
+.homepage .round_section_div p {
+	font-size: 17px;
+	
+	color: #333333;
+}
+
+.homepage .round_section_div div {
+	font-size: 11px;
+	
+	color: #333333;
+}
+
+.homepage .horizontal_line {
+	height: 2px;
+	margin-bottom: 50px;
+
+	background-image: url(../../../resources/theme/images/homepage/horizontal_line.jpg);
+}
+
+.homepage  .bottom_homepage {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.homepage  .bottom_homepage .bottom_text {
+	width: 515px;
+	float: left;
+}
+
+.homepage  .bottom_homepage .bottom_text .welcome_to {
+	margin-bottom: 0px;
+	font-size: 17px;
+}
+
+.homepage  .bottom_homepage .bottom_text .mlazgar_associates {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 27px;
+	
+	color: #b31c27;
+}
+
+.homepage  .bottom_homepage .bottom_text .welcome_to_text {
+	color: #333333;
+}
+
+.homepage  .bottom_homepage .youtube_player {
+	width: 407px;
+	height: 249px;
+	float: right;
+	
+	background-image: url(../../../resources/theme/images/homepage/youtube.jpg);
+}

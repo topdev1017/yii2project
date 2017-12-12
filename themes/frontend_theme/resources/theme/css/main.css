@@ -1,0 +1,218 @@
+body {
+	margin: 0px;
+	font-size: 12px;
+	font-family: proxima-nova,sans-serif;
+	
+	background-color: #FFFFFF;
+}
+
+.header {
+	width: 1000px;
+	height: 176px;
+	position: relative;
+	margin: auto auto 30px;  
+	
+	color: #b31c27;
+}
+
+.header .logo {
+	width: 175px;
+	height: 158px;
+	position: absolute;
+	bottom: 0;
+	background-repeat: no-repeat;
+
+	background-image: url(../../../resources/theme/images/core/logo.jpg);
+}
+
+.distributor_wishlist_social  {
+	float: right;
+	padding-right: 20px;	
+}
+
+.distributor_wishlist {
+	height:29px;
+	margin-bottom: 18px;
+	font-size: 13px;
+}
+
+.distributor_wishlist div {
+	width: 140px;
+	height: 27px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.distributor_wishlist_social .distributor_login  {
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	
+	background-color: #FFFFFF;
+	background-image: url(../../../resources/theme/images/header/distributor_wishlist_social_background.jpg);
+}
+
+.distributor_wishlist_social .wishlist {
+	float: right;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	
+	background-color: #FFFFFF;
+	background-image: url(../../../resources/theme/images/header/distributor_wishlist_social_background.jpg);
+}
+
+.social {
+	display: table;
+	float: right;
+}
+
+.social  div{
+	display: table-cell;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.distributor_wishlist_social .social .facebook {
+	background-image: url(../../../resources/theme/images/header/facebook.jpg);
+}
+
+.distributor_wishlist_social .social .youtube {
+	background-image: url(../../../resources/theme/images/header/youtube.jpg);
+}
+
+.distributor_wishlist_social .social .instagram {
+	background-image: url(../../../resources/theme/images/header/instagram.jpg);
+}
+
+.distributor_wishlist_social .social .twitter {
+	background-image: url(../../../resources/theme/images/header/twitter.jpg);
+}
+
+.distributor_wishlist_social .social .linkedin {
+	background-image: url(../../../resources/theme/images/header/linkedin.jpg);
+}
+
+.upper_menu {
+	float: right;
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	padding-right: 20px;
+	font-size: 14px;
+}
+
+.upper_menu  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}	
+
+.upper_menu li {
+	display: inline;
+	margin-left: 21px;
+	cursor: pointer;
+}
+
+.main-content {
+	width: 1000px;
+	margin: auto;  
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.footer_container {
+	height: 298px;
+	width: 100%;
+	margin-top: 70px;
+	
+	background-image: url(../../../resources/theme/images/footer/footer_background.jpg);
+}
+
+.footer {
+	width: 1000px;
+	height: 100%;
+	position: relative;
+	margin: auto; 
+	display: table;
+}
+
+.footer .logo {
+	width: 155px;
+	padding-left: 15px;
+	display: table-cell;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	background-image: url(../../../resources/theme/images/footer/footer-logo.jpg);
+}
+
+.footer .social {
+	float: none;
+	display: table-cell;
+	padding-top: 62px;
+	padding-left: 20px;
+}
+
+.footer .social  div {
+	width: 49px;
+	height: 49px;
+	padding-left: 7px;
+}
+
+.social .facebook {
+	background-image: url(../../../resources/theme/images/footer/footer-facebook.png);
+}
+
+.social .youtube {
+	background-image: url(../../../resources/theme/images/footer/footer-youtube.png);
+}
+
+.social .instagram {
+	background-image: url(../../../resources/theme/images/footer/footer-instagram.png);
+}
+
+.social .twitter {
+	background-image: url(../../../resources/theme/images/footer/footer-twitter.png);
+}
+
+.social .linkedin {
+	background-image: url(../../../resources/theme/images/footer/footer-linkedin.png);
+}
+
+.footer p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	
+	color: #666666;
+}
+
+.footer .title {
+	font-size: 15px;
+	margin-bottom: 11px;
+	
+	text-decoration: underline;
+	color: #b31c27;
+}
+
+.footer .mlazgar_associates {
+	display: table-cell;
+	padding-top: 62px;
+	vertical-align: top;
+	padding-left: 110px;
+}
+
+.footer .distributors {
+	display: table-cell;
+	padding-top: 62px;
+	vertical-align: top;
+	padding-left: 20px;
+}
+

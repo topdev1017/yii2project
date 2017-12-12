@@ -1,0 +1,361 @@
+h1 {
+    font-size: 54px;
+    line-height: 64px;
+    font-family: "proxima-nova-semibold";
+    text-transform: uppercase;
+    color: #b31c27;
+    display: table;
+    border-bottom: 1px solid #b31c27;
+    margin: 0 auto 30px auto;
+}
+h2 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+    padding:0;
+    margin:0 0 30px 0;
+    font-weight:normal;
+    text-align:justify;
+}
+.main-content-title {
+	font-size: 37px;
+	text-align: center;
+
+	font-weight: bold;
+	color: #b31c27;
+	text-decoration: underline;
+}
+
+.main-content-text {
+	text-align: center;
+	margin-bottom: 45px;
+	
+	color: #333333;
+}
+
+.applications-menu {
+	float: left;
+	width: 607px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #cccccc;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+	color: #333333;
+	background-image: url(../images/applications/applications-menu.jpg);
+}
+
+.applications-overview {
+	float: right;
+	width: 345px;
+	padding-left: 25px;
+	
+	color: #333333;
+}
+
+.applications-overview a {
+    color:#b31c27;
+}
+
+.applications-overview .applications-overview-title {
+	font-size: 24px;
+	margin-top: 15px;
+	
+	text-decoration: underline;
+	font-weight: bold;
+	color: #b31c27;
+}
+
+.applications-menu .round_section_div {
+    float: left;
+    min-height:255px;
+/*    width: 160px;*/
+    width: calc(33.33% - 30px);
+    margin: 15px 15px 15px 15px;
+}
+
+.applications-menu .round_section_div  p {
+	font-weight: bold;
+	font-size: 13px;
+    text-align:center;
+}
+
+.applications-menu .round_section_div  p a {
+    color:#333;
+    text-decoration:none;
+}
+.applications-menu .round_section_div  div a {
+    color:#b31c27;
+}
+
+.applications-menu .round {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 140px;
+}
+
+.round1
+{
+	background-image: url(../images/applications/applications-thumbs-office.png);
+}
+
+.round2
+{
+	background-image: url(../images/applications/applications-thumbs-education.png);
+}
+
+.round3
+{
+	background-image: url(../images/applications/applications-thumbs-healthcare.png);
+}
+
+.round4
+{
+	background-image: url(../images/applications/applications-thumbs-hospitality.png);
+}
+
+.round5
+{
+	background-image: url(../images/applications/applications-thumbs-industrial.png);
+}
+
+.round6
+{
+	background-image: url(../images/applications/applications-thumbs-outdoor.png);
+}
+
+.applications-overview .applications-thumbs {
+	width: 370px;
+}
+
+.applications-overview .applications-thumbs  .thumb {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 95px;
+	height: 95px;
+	float: left;
+	margin-right: 26px;
+	margin-bottom: 26px;
+}
+
+.applications-overview .applications-thumbs .thumb1 {
+	background-image: url(../images/applications/applications-thumb1.jpg);
+}
+
+.applications-overview .applications-thumbs .thumb2 {
+	background-image: url(../images/applications/applications-thumb2.jpg);
+}
+
+.applications-overview .applications-thumbs .thumb3 {
+	background-image: url(../images/applications/applications-thumb3.jpg);
+}
+
+.applications-overview .applications-thumbs .thumb4 {
+	background-image: url(../images/applications/applications-thumb4.jpg);
+}
+
+.applications-overview .applications-thumbs .thumb5 {
+	background-image: url(../images/applications/applications-thumb5.jpg);
+}
+
+.applications-overview .applications-thumbs .thumb6 {
+	background-image: url(../images/applications/applications-thumb6.jpg);
+}
+
+h3 {
+    font-weight:normal;
+    font-family:"proxima-nova-semibold";
+    font-size:20px;
+    line-height:26px;
+    margin:0 0 20px 0;
+    padding:0;
+    color: #b31c27;
+}
+
+.applications-slogan {
+    display:table;
+    clear:both;
+    font-size:20px;
+    padding:10px 20px;
+    color:#fff;
+    background:#b31c27;
+    margin:30px auto 0px auto;
+    
+    background: #b31b27; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b31b27 0%, #8a111a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b31b27), color-stop(100%,#8a111a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #b31b27 0%,#8a111a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #b31b27 0%,#8a111a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #b31b27 0%,#8a111a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #b31b27 0%,#8a111a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b27', endColorstr='#8a111a',GradientType=0 ); /* IE6-9 */
+
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+/*    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.55);*/
+/*    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.55);*/
+/*    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.55);*/
+    
+    
+}
+
+.applications-popup {
+    border:none !important;
+    max-height:600px;
+/*    overflow-y:scroll;*/
+}
+.applications-popup .errors {
+    padding-bottom:20px;
+}
+.applications-popup .errors p {
+    color:red;
+    font-size:11px;
+    line-height:13px;
+    margin:0;
+    padding:0;
+}
+.applications-popup .qtip-content {
+    padding:0px !important;
+    border:none !important;
+}
+
+.applications-popup h1 {
+    text-align:center;
+    font-size:29px;
+    line-height:35px;
+    color:#333;
+    font-weight:normal;
+    margin:0 0 30px 0;
+    padding:20px 0 0 0;
+    border:none;
+    display:block;
+}
+.applications-popup-content {
+    padding-left:95px;
+    padding-right:95px;
+}
+.applications-popup p {
+    font-size:14px;
+    line-height:16px;
+    text-align:center;
+}
+
+.applications-popup .row {
+    margin:0;
+}
+.applications-popup .row:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.applications-popup .row .side:nth-child(2n+2) {
+    margin-right:0;
+    
+}
+.applications-popup .row .side {
+    float:left;
+    width:calc(50% - 23px);
+    margin-right:45px;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.applications-popup label {
+    display:block;
+    font-size:19px;
+    line-height:24px;
+}
+.applications-popup input[type="text"],
+.applications-popup input[type="email"] {
+    line-height: 40px;
+    color: #333;
+    font-size: 20px;
+    padding: 0 20px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    background: #dfdfdf;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.applications-popup textarea {
+    color: #333;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    background: #dfdfdf;
+    min-height: 107px;
+    resize:none;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.applications-popup .field {
+    margin-bottom:20px;
+}
+.applications-popup .buttons {
+    background:#b31c27;
+    line-height:66px;
+}
+.applications-popup .buttons:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.applications-popup .buttons .side {
+    line-height:66px;
+    color:#fff;
+    text-align:center;
+    border-right:1px solid #fff;
+    border-top:1px solid #fff;
+    width:calc(50% - 1px);
+    float:left;
+    text-transform:uppercase;
+    font-size:16px;
+    font-family:"proxima-nova-semibold";
+}
+.applications-popup .buttons .side:last-child {
+    border-right:0;
+}
+.applications-popup .buttons .side .submit {
+    padding-right: 40px;
+  background: url("../images/wishlist-popup/learnmore-icon.png") no-repeat center right;
+}
+
+.applications-popup .buttons .side a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.applications-popup .qtip-close {opacity:0}
+.applications-popup .close-popup {
+    position: absolute;
+  right: -20px;
+  top: -20px;
+  cursor: pointer;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #b31c27;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}

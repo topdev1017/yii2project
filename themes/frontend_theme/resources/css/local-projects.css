@@ -1,0 +1,91 @@
+h1 {
+    font-size: 54px;
+    line-height:60px;
+    text-align: center;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: #b31c27;
+    text-align:center;
+    /*    display:inline-block;*/
+    margin:40px 0 23px 0;
+    padding:0;
+}
+
+h1 span {
+    border-bottom:1px solid #b31c27;
+
+}
+
+h3 {
+    font-family: "proxima-nova-semibold";
+    font-size:20px;
+    line-height:26px;
+    text-align:center;
+    color:#b31c27;
+    text-transform:uppercase; 
+}
+
+p {
+    text-align:center;
+    font-size:14px;
+    line-height:18px;
+}
+
+.row,
+.columns {
+    margin:0 0 30px 0;
+    padding:0;
+    clear:both;
+}
+.row:after,
+.columns:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.row .side,
+.columns .col {
+    width:calc(50% - 25px);
+    float:left;
+    margin-right:50px;
+}
+.row .side:nth-child(2n+2),
+.columns .col:nth-child(2n+2) {
+    margin-right:0;
+}
+
+
+
+.local-projects-popup {
+    padding:0 !important;
+    background:none !important;
+    border:none !important;
+}
+.local-projects-popup .qtip-content {
+    padding:0 !important;
+    background:none !important;
+}
+
+.local-projects-popup .img-content {
+    position:relative;
+}
+.local-projects-popup .img-content img {
+    display:block;
+    z-index:1;
+}
+.local-projects-popup .img-content .caption {
+    position:absolute;
+    z-index:2;
+    bottom:0;
+    background:rgba(0,0,0,0.7);
+    color:#fff;
+    padding:10px;
+    width:100%;
+    font-size:14px;
+    line-height:16px;
+    font-family:"proxima-nova-semibold";
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}

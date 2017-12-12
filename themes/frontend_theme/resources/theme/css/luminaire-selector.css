@@ -1,0 +1,212 @@
+.luminaire-selector-content {
+	float:right;
+	width: 768px;
+}
+
+.luminaire-selector-content .breadcrumb-main {
+	display: table;
+	margin-top: -14px;
+}
+
+.luminaire-selector-content .breadcrumb {
+	display: table-cell;
+	font-size: 11px;
+	width: 479px;
+	
+	color: #d0d0d0;
+}
+
+.luminaire-selector-content .thumb-size {
+	display: table-cell;
+	font-size: 11px;
+	width: 91px;
+	
+	color: #333333;
+}
+
+.luminaire-selector-content .filter-by {
+	display: table-cell;
+	font-size: 11px;
+	width: 105px;
+	
+	color: #333333;
+}
+
+.luminaire-selector-content .menu-big {
+	display: table;
+}
+
+.luminaire-selector-content .menu-name {
+	display: table-cell;
+	height: 70px;
+	width: 479px;
+
+	background-image: url(../../../resources/theme/images/luminaire-selector/main-background.jpg);	
+}
+
+.luminaire-selector-content .menu-name p {
+	font-size: 25px;
+	margin-left: 25px;
+	margin-top: 18px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.luminaire-selector-content .menu-thumb-size {
+	display: table-cell;
+	width: 91px;
+	cursor: pointer;
+	
+	background-image: url(../../../resources/theme/images/luminaire-selector/thumb.jpg);	
+}
+
+.luminaire-selector-content .menu-quick-ship-only {
+	display: table-cell;
+	width: 105px;
+	cursor: pointer;
+	
+	background-image: url(../../../resources/theme/images/luminaire-selector/quick-ship.jpg);	
+}
+
+.luminaire-selector-content .menu-led-only {
+	display: table-cell;
+	width: 93px;
+	cursor: pointer;
+	
+	background-image: url(../../../resources/theme/images/luminaire-selector/led-only.jpg);	
+}
+
+.luminaire-selector-content ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.luminaire-selector-content li {
+	list-style-type: none;
+}
+
+.luminaire-selector-content .product-firm {
+	height: 36px;
+	width: 652px;
+	margin-top: 35px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	float: left;
+	
+	background-color: #e4e4e4;
+	font-weight: bold;
+	color: #333333;
+}
+
+.luminaire-selector-content .product-menu {
+	width: 91px;
+	height: 46px;
+	float: right;
+	margin-top: 35px;
+	
+	background-image: url(../../../resources/theme/images/luminaire-selector/menu.jpg);	
+}
+
+.luminaire-selector-content .product-box {
+    float: left;
+    width: 133px;
+    margin: 10px;
+}
+
+.luminaire-selector-content .thumb {
+	width: 133px;
+    height: 131px;
+	background-image: url(../../../resources/theme/images/luminaire-selector/thumbs-middle.jpg);
+}
+
+.luminaire-selector-content .product-box p {
+    height: 30px;
+	width: 100px;
+    margin-top: 20px;
+	margin-bottom: 7px;
+	margin-left: 15px;
+    text-align: center;
+	
+	color: #333333;
+}
+
+.luminaire-selector-content .specifications {
+	width: 133px;
+	height: 20px;
+	text-align: center;
+	padding-top: 4px;
+	font-size: 11px;
+	
+	color: #ffffff;
+	background-color: #b31c27;
+}
+
+.luminaire-selector-content .product-box-small {
+    float: left;
+    width: 100px;
+    margin: 10px 15px 10px 10px;
+}
+
+.luminaire-selector-content .thumb-small {
+	width: 100px;
+    height: 100px;
+	background-image: url(../../../resources/theme/images/luminaire-selector/thumbs-small.jpg);
+}
+
+.luminaire-selector-content .product-box-small p {
+    height: 30px;
+    margin-top: 20px;
+	margin-bottom: 7px;
+    text-align: center;
+	
+	color: #333333;
+}
+
+.luminaire-selector-content .specifications-small {
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	padding-top: 4px;
+	font-size: 11px;
+	
+	color: #ffffff;
+	background-color: #b31c27;
+}
+
+.luminaire-selector-content .product-box-large {
+    float: left;
+    width: 200px;
+    margin: 10px 46px 10px 10px;
+}
+
+.luminaire-selector-content .thumb-large {
+	width: 200px;
+    height: 200px;
+	background-image: url(../../../resources/theme/images/luminaire-selector/thumbs-large.jpg);
+}
+
+.luminaire-selector-content .product-box-large p {
+    height: 30px;
+    margin-top: 20px;
+	margin-bottom: 7px;
+	margin-left: 50px;
+    text-align: center;
+	width: 100px;
+	
+	color: #333333;
+}
+
+.luminaire-selector-content .specifications-large {
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	padding-top: 4px;
+	font-size: 11px;
+	
+	color: #ffffff;
+	background-color: #b31c27;
+}

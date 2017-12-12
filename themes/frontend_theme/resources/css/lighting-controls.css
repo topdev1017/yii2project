@@ -1,0 +1,116 @@
+h1 {
+
+}
+
+p {
+    text-align:center;
+/*    text-align:justify;*/
+    font-size:13px;
+    line-height:19px;
+    color:#333;
+}
+
+.lighting-controls-list {
+    list-style:none;
+    margin:30px 0;
+    padding:0;
+}
+.lighting-controls-list li {
+    clear:both;
+    width:100%;
+    margin-bottom:70px;
+    font-size:15px;
+    line-height:21px;
+}
+.lighting-controls-list li:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.lighting-controls-list li .header {
+    clear:both;
+    width:100%;
+    height:auto;
+    margin-bottom:30px;
+}
+.lighting-controls-list li .header:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.lighting-controls-list li .header h3 {
+    width:90%;
+    float:left;
+    font-size:42px;
+    line-height:46px;
+    color:#42a9d3;
+    font-weight:normal;
+    font-family:"proxima-nova",sans-serif;
+    font-weight:300;
+    text-transform:uppercase;
+    margin:0;
+    padding:0;
+}
+.lighting-controls-list li .header .scroll-top {
+    float:right;
+    display:inline-block;
+    max-width:10%;
+}
+.lighting-controls-list li .header .spacer {
+    clear:both;
+    width:100%;
+    height:10px;
+    background:#42a9d3;
+}
+.lighting-controls-list li .image {
+    float:left;
+    margin-right:20px;
+}
+.lighting-controls-list li .image img {
+    display:block;
+    width:100%;
+    max-width:415px;
+    min-width:230px;
+}
+.lighting-controls-list li h3 {
+    margin:0 0 5px 0;
+    padding:0;
+    color:#3399cc;
+    text-transform:uppercase;
+    padding-top:20px;
+    font-size:12px;
+    line-height:18px;
+}
+.lighting-controls-list li h4 {
+    margin:0;
+    padding:0;
+    text-transform:uppercase;
+    color:#333;
+    font-size:18px;
+    line-height:24px;
+    margin-bottom:20px;
+}
+.lighting-controls-list li h4 a {
+    color:#333;
+    font-size:14px;
+    font-weight: 300;
+    text-decoration:none;
+    display:inline-block;
+    background:#3399cc;
+    line-height:30px;
+    padding:0 15px;
+    min-width:70px;
+    text-align:center;
+    color:#fff;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.lighting-controls-list li p {
+    font-size:14px;
+    line-height:18px;
+    color:#333;
+    margin:0;
+    padding:0;
+    text-align:left;
+    margin-top:30px;
+}

@@ -1,0 +1,63 @@
+.whats-new-content p {
+    font-size:13px;
+    line-height:17px;}
+.whats-new-content .newsletter-form {
+    position:relative;
+}
+.whats-new-content .newsletter-form:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.whats-new-content .newsletter-form input[type="text"],
+.whats-new-content .newsletter-form input[type="email"] {
+    background:#add6eb;
+    border:none;
+    outline:0;
+    line-height:19px;
+    font-size:19px;
+    padding:10px;
+    width:calc(100% - 110px);
+    color:#fff;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.whats-new-content .newsletter-form label {
+    width:100px;
+    text-align:right;
+    line-height:39px;
+    font-size:15px;
+    display:inline-block;
+    padding-right:5px;
+}
+.whats-new-content .newsletter-form .field {
+    width:calc(100% - 130px);
+    float:left;
+    margin-bottom:10px;
+    padding-right:10px;
+}
+
+
+.whats-new-content .newsletter-form input[type="submit"],
+.whats-new-content .newsletter-form .submit-button {
+    width:120px;
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:0;
+    top:0px;
+    bottom:10px;
+    height:calc(100% - 20px);
+    background:#3399cc;
+    display:block;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    font-size:15px;
+    line-height:15px;
+    font-weight:bold;
+    text-align:center;
+}

@@ -1,0 +1,429 @@
+
+.luminaire-content {
+	float: right;
+}
+
+.main-menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.main-menu li {
+	list-style-type: none;
+}
+
+.main-menu a {
+	text-decoration: none;
+}
+
+.main-menu-level1  {
+	line-height: 36px;
+	background-color: #b31c27;
+}
+
+.main-menu-level1 a {
+	padding-left: 20px;
+	font-size: 13px;
+
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.main-menu-level2 {
+	padding-left: 20px;
+	padding-top: 5px;
+	
+	background-color: #e4e4e4;
+}
+
+.main-menu-level3 {
+	padding-left: 6px;
+	padding-top: 5px;
+	
+	background-color: #e4e4e4;
+}
+
+.main-menu-level3 a {
+	color: #666666 !important;
+}
+
+.main-menu .first {
+	padding-top: 10px;
+}
+
+.main-menu .last {
+	padding-bottom: 10px;
+}
+
+.main-menu .selected {
+/*	background-color: #c0c0c0;*/
+}
+
+.main-menu .selected  li {
+/*	background-color: #c0c0c0;*/
+}
+
+.main-menu .selected  a{
+/*	color: #b31c27;*/
+}
+
+.main-menu-level2 a {
+	font-size: 11px;
+
+	color: #666666;
+}
+
+.luminaire-content {
+	width: 768px;
+}
+
+.luminaire-content-header {
+    position:relative;
+    padding:20px;
+    min-height: 94px;
+	max-height: 94px;
+/*	padding-left: 30px;*/
+/*	padding-right: 275px;*/
+	
+    background:#3399cc;
+    color:#fff;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.luminaire-content-header .view-video {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    width:300px;
+    background:url("../images/luminaire/view-tutorial.jpg") no-repeat top center;
+    color:#333;
+    font-size:18px;
+    line-height:24px;
+    font-weight:600;
+    text-align:center;
+    padding:20px 0;
+    border-left:2px solid #fff;
+    text-decoration:none;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.luminaire-content-header .get_started {
+	font-size: 20px;
+    line-height:24px;
+	color: #ffffff;
+}
+
+.luminaire-content-header-line {
+	display:none;
+}
+
+.luminaire-content-header .or {
+	font-size: 16px;
+}
+
+/*.luminaire-content .content {
+	min-height: 500px;
+	padding-left: 23px;
+	background-repeat: no-repeat;
+	background-position: right top;
+
+	background-image: url(../images/luminaire/light.jpg);	
+}*/
+.luminaire-content .content .safe-width {
+    width:55%;
+}
+.luminaire-content .content p {
+	margin: 0px;
+}
+
+.luminaire-content h1 {
+    font-size: 24px;
+    margin:0;
+    padding:50px 0 30px 0;
+    font-weight: 600;
+    color: #333;
+}
+.luminaire-content h2 {
+	font-size: 24px;
+	margin:0;
+	padding:10px 0 20px 0;
+	font-weight: 600;
+	color: #333;
+}
+
+.luminaire-content h3 {
+	font-size: 17px;
+    line-height:21px;
+	font-weight: 600;
+/*	text-decoration: underline;*/
+	color: #333333;
+    margin:0 0 10px 0;
+    padding:0;
+    position:relative;
+    display:table;
+}
+
+.luminaire-content p {
+	padding-bottom: 23px;
+	font-size:16px;
+    line-height:20px;
+	color: #333333;
+}
+
+.luminaire-content p img {
+    max-width:100%;
+}
+
+.luminaire-content select {
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.dom-loader {
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    width:100%; 
+    z-index:10;
+    background:rgba(179, 28, 39, 0.7)
+}
+.dom-loader span {
+    position:absolute;
+    top:50%;
+    margin-top:-12px;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    font-size:24px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.ls-landing-header {
+    background:#42a9d3 url("../images/luminaire/ls-landing-header-bg.png") no-repeat top right;
+    color:#fff;
+    background-size:contain;
+    position:relative;
+}
+.ls-landing-header:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.ls-landing-header h1 {
+    color:#fff;
+    font-family: "proxima-nova",sans-serif;
+    font-weight:300;
+    font-size:40px;
+    line-height:42px;
+    letter-spacing:3px;
+    padding:27px 0 27px 30px;
+    display:inline-block;
+    vertical-align:top;
+    float:left;
+    box-sizing:border-box;
+}
+.ls-landing-header h1 small {
+    display:block;
+    clear:both;
+    font-size:16px;
+    line-height:18px;
+    color:#ccf0ff;
+    font-weight:normal;
+    letter-spacing:0px;
+}
+.ls-landing-header h1 small i {
+    font-style: normal;;
+}
+.ls-landing-header a {
+    position:absolute;
+    top:50%;
+    margin-top:-18px;
+    right:20px;
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    line-height:18px;
+    text-align:right;
+    z-index:2;
+}
+.ls-landing-header a > i {
+    padding-right:5px;
+    display:inline-block;
+    content:" ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 7px;
+    border-color: transparent transparent transparent #ffffff;
+}
+.ls-landing-header a span,
+.ls-landing-header a small {
+    display:block;
+    font-weight:600;
+    font-size:inherit;
+    line-height:inherit;
+}
+
+.ls-landing-content {
+    background:url("../images/luminaire/ls-landing-page-fixture.jpg") no-repeat;
+    background-position: calc(100% - 90px) 0px;
+}
+.ls-landing-content .text-container {
+    font-family: "proxima-nova",sans-serif;
+    width:100%;
+    max-width:calc(100% - 450px);
+    font-size:16px;
+    line-height:22px;
+    color:#666666;
+    text-align:center;
+    padding:40px 0;
+}
+.ls-landing-content .text-container p {
+    font-size:16px;
+    line-height:22px;
+    color:#666666;
+    font-family: "proxima-nova",sans-serif;
+}
+
+.features-area {
+    text-align:center;
+    padding:20px 0;
+}
+.features-area h3 {
+    font-family: "proxima-nova";
+    font-size:22px;
+    line-height:24px;
+    clear:both;
+    margin:0;
+    padding:5px 0;
+    color:#333;
+    text-align:center;
+    display:block;
+}
+.features-area p {
+    font-family: "proxima-nova",sans-serif;
+    color:#666;
+    font-size:15px;
+    line-height:17px;
+    margin:0;
+    padding:0;
+}
+
+.ls-landing-tutorial-box {
+    margin:10px 0;
+    background:#e5f5fa;
+    padding:25px;
+    text-align:center;
+    font-family: "proxima-nova",sans-serif;
+}
+.ls-landing-tutorial-box .icon-play-video {
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13.5px 0 13.5px 24px;
+    border-color: transparent transparent transparent #007bff;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.ls-landing-tutorial-box .icon-play-video:hover {
+    border-color: transparent transparent transparent #5bc8ec;
+}
+.ls-landing-tutorial-box h3 {
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: "proxima-nova",sans-serif;
+    font-size:22px;
+    line-height:30px;
+    display:block;
+    font-weight:400;
+}
+.ls-landing-tutorial-box p {
+    margin:0;
+    padding:0;
+    font-size:15px;
+    line-height:18px;
+    color:#666;
+    text-align:center;
+}
+
+.ls-landing-featured-box {
+    clear:both;
+    margin:20px 0;
+    background:url("../images/luminaire/ls-landing-featured-hubbel-bg.png") no-repeat center center;
+    background-size:cover;
+    padding:20px;
+    position:relative;
+}
+.ls-landing-featured-box:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.ls-landing-featured-box > a {
+    position:absolute;
+    top:50%;
+    margin-top:-35px;
+    display:block;
+}
+.ls-landing-featured-box a img{display:block;max-width:100%;}
+.ls-landing-featured-box .text-container {
+    float:right;
+    width:calc(100% - 400px);
+    font-size:15px;
+    color:#333;
+    padding:0;
+    margin:0;
+}
+.ls-landing-featured-box h3 {
+    text-align:center;
+    display:block;
+    font-size:32px;
+    line-height:36px;
+    font-weight:400;
+    margin:0;
+    padding:0 0 20px 0;
+}
+.ls-landing-featured-box p {
+    font-size:15px;
+    color:#333;
+    padding:0;
+    margin:0 0 10px 0 !important;
+}
+.ls-landing-featured-box p.button {
+    text-align:center;
+    padding-top:15px;
+}
+.ls-landing-featured-box .view {
+    color:#fff;
+    font-family:"proxima-nova",sans-serif;
+    font-size:14px;
+    font-weight:600;
+    display:inline-block;
+    letter-spacing:1px;
+    padding:10px 15px;
+    background:#42a9d3;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.ls-landing-featured-box .view i {
+        margin: 7px 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3.5px 0 3.5px 6px;
+    border-color: transparent transparent transparent #ffffff;
+    display:inline-block;
+    vertical-align:top;
+}

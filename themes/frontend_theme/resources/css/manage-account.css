@@ -1,0 +1,204 @@
+.manage-account-content h3 {
+    background:#42a9d3;
+    padding:15px 20px;
+    font-size:22px;
+    line-height:22px;
+    color:#fff;
+    margin:0;
+}
+
+.section {
+    padding:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.row,
+.columns {
+    margin:0;
+    padding:0;
+    clear:both;
+}
+.row:after,
+.columns:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.row .side,
+.columns .col {
+    width:calc(50% - 25px);
+    float:left;
+    margin-right:50px;
+}
+.row .side:nth-child(2n+2),
+.columns .col:nth-child(2n+2) {
+    margin-right:0;
+}
+.field {
+    margin-bottom:20px;
+}
+
+label {
+    font-size:14px;
+    display:block;
+    line-height:20px;
+    font-family:"proxima-nova";
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-size:16px;
+    line-height:16px;
+    padding:15px 20px;
+    background:#e4e4e4;
+    color:#000;
+    width:100%;
+    font-family:"proxima-nova";
+    border:none;
+    outline:0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.submit-btn,
+input[type="submit"] {
+    outline:0;
+    border:none;
+    display:inline-block;
+    background:#42a9d3;
+    color:#fff;
+    font-size:12px;
+    line-height:12px;
+    font-family:"proxima-nova";
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding:15px 40px;
+    text-transform:uppercase;
+    text-decoration:none;
+    min-width:130px;
+    text-align:center;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+
+.current-logo {
+    max-width:260px;
+    min-width:260px;
+    float:left;
+    margin-right:20px;
+}
+.current-logo img {
+    display:block;
+    width:100%;
+    margin:0 auto;
+}
+
+.logo-info {
+    float:left;
+    width:calc(100% - 280px)
+}
+.logo-info:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+.logo-info p {
+    font-size:14px;
+    line-height:18px;
+    color:#000;
+    margin-bottom:8px;
+    margin-top:0;
+}
+.logo-info .buttons {}
+.logo-info .browse-btn {
+    outline:0;
+    border:none;
+    display:inline-block;
+    background:#333;
+    color:#fff;
+    font-size:12px;
+    line-height:12px;
+    font-family:"proxima-nova";
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding:15px 40px;
+    text-transform:uppercase;
+    text-decoration:none;
+    min-width:130px;
+    max-width:130px;
+    text-align:center;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.logo-info .upload-btn {
+    outline:0;
+    border:none;
+    display:inline-block;
+    background:#42a9d3;
+    color:#fff;
+    font-size:12px;
+    line-height:12px;
+    font-family:"proxima-nova";
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding:15px 40px;
+    text-transform:uppercase;
+    text-decoration:none;
+    min-width:130px;
+    text-align:center;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.help-block-error,
+.errors {
+    color:red;
+}
+
+.progress-bar {display:none;}
+
+.file-caption {
+    display:inline-block;
+    margin-left:20px;
+    line-height:45px;
+}
+
+.file-input .input-group-btn {
+    float:left;
+}
+.file-preview {
+    display:none;
+} 
+.kv-caption-icon {display:none;}
+.kv-fileinput-caption {
+    outline:0 !important;
+    border:none !important;
+}
+.file-caption-name {
+    display: inline-block !important;
+    outline:0 !important;
+    border:none !important;
+   overflow: visible !important; 
+   max-height: 100% !important; 
+  padding-right: 10px;
+  word-break: break-all;
+}
+
+.logo-info .browse-btn {
+    background:#42a9d3 !important;
+    max-width:100%;
+}

@@ -1,0 +1,280 @@
+[31-Aug-2015 20:27:41 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(23): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:32:29 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "andreiher89@gmail.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:35:06 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(23): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:35:11 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:35:12 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:36:13 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:36:14 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:36:15 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:36:16 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:36:17 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:36:33 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "andreiher89@gmail.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:36:50 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "andreiher89@gmail.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(28): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:37:23 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(23): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:42:46 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:44:38 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:44:50 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:46:34 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[31-Aug-2015 20:51:05 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.office365.com [Connection timed out #110]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:51:52 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.office365.com [Connection timed out #110]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[31-Aug-2015 20:52:59 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.office365.com [Connection timed out #110]' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[09-Oct-2015 06:52:57 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection to tcp://smtp.office365.com:465 Timed Out' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:404
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 404
+[09-Oct-2015 06:53:19 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection to tcp://smtp.office365.com:465 Timed Out' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:404
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 404
+[09-Oct-2015 06:53:26 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection to tcp://smtp.office365.com:465 Timed Out' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:404
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_getFullResponse(0)
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 404
+[09-Oct-2015 06:54:03 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 06:58:05 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:22:12 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:24:20 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(24): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:25:08 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:25:53 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:26:20 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:31:52 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "luminaires@wfli.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:32:05 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "luminaires@wfli.com" using 2 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:32:15 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 1 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:32:31 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 1 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+[09-Oct-2015 16:32:58 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "contact@hlalighting.com" using 1 possible authenticators' in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:181
+Stack trace:
+#0 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hlalighting/public_html/smtp/index.php(25): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hlalighting/public_html/smtp/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
